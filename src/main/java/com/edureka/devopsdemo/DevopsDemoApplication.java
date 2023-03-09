@@ -20,7 +20,7 @@ public class DevopsDemoApplication {
     }
 
 	public void samMethod(){ 
-		System.out.println("sam changes"); 
+		System.out.println("sam changes - updated"); 
 	}
     
     public void rameshMethod(){
