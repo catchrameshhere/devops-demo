@@ -18,4 +18,7 @@ public class DevopsDemoApplication {
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
       return String.format("Hello %s!", name);
     }
+	public void samMethod(){ 
+		System.out.println("ramesh changes"); 
+	}
 }
